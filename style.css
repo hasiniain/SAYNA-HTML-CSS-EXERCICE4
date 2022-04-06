@@ -1,0 +1,206 @@
+@font-face {
+   font-family: "FarFromHomecoming";
+   src: url("Assets/Typo-FarFromHomecoming.otf");
+}
+
+@font-face {
+   font-family: "Raleway";
+   src: url("Montserrat/static/Montserrat-Regular.ttf ");
+   font-size: 14px;
+}
+@font-face {
+   font-family: "medium";
+   src: url("Montserrat/static/Montserrat-medium.ttf ");
+   font-size: 16px;
+}
+@font-face {
+   font-family: "bold";
+   src: url("Montserrat/static/Montserrat-ExtraBold.ttf ");
+   font-size: 100px;
+   color: #ffffff;
+}
+
+body{
+   margin: 0%;
+   background-color: #B11313;
+   color: #fff;
+   font-family: Raleway;
+}
+/* header */
+
+header a.nav-link{
+   color: #fff;
+}
+/* presentation */
+img{
+   justify-content: space-between;
+   padding: 10px;
+}
+a{
+   display: inline list-item;
+}
+h1, h2{
+   font-family: "FarFromHomecoming";
+}
+h1{
+   font-size: 60px;
+}
+h3{
+   font-size: 16px;
+   font-family: "medium";
+}
+
+#bannerWithSpiders{
+   background-image: url(Assets/Illustration/img1.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: top left;
+   padding-top: 30%;
+   padding-bottom: 50px;
+}
+/* identification */
+.be-spiderman {
+   background-color: #114c92;
+}
+.be-spiderman .wrapper{
+   background-image: url(Assets/Illustration/img5.png);
+   background-repeat: no-repeat;
+   background-position-y: 25px;
+   padding-top: 75px;
+   padding-bottom: 75px;
+}
+.be-spiderman .wrapper p{
+   text-align: right;
+}
+
+.be-spiderman input.custom-input{
+   background-color: #ffffff;
+   color: #000000;
+   font-weight: bolder ;
+   padding-left: 3%;
+   border-radius: 20px;
+   width: 60%;
+   height:30px;
+   border-color: #000000;
+   font-family: "Raleway";
+}
+
+.be-spiderman input.custom-button{
+   display: block;
+   border-color: #ffffff;
+   box-shadow: 3% #ffffff;
+   background-color: #114c92;
+   color: #ffffff;
+   width: 25%;
+   height: 60px;
+   border-radius: 18px;
+   margin: auto;
+   margin-top: 8%;
+   font-family: "Raleway";
+}
+/* inscription */
+.news-letter {
+   background-image: url(Assets/Illustration/img6.png);
+   background-size: content;
+   background-repeat: no-repeat;
+   background-position: top right;
+   min-height: 800px;
+
+}
+
+.news-letter input.custom-input{
+   color: #ffffffb7;
+   background-color: #B11313;
+   border-color: #ffffff;
+   box-shadow:3px #ffffff;
+   border-radius: 30px; 
+   width: 60%;
+   height: 30px;
+   padding-left: 2%;
+   font-family: "Raleway";
+}
+
+.news-letter input.custom-input::placeholder{
+   color: #fff;
+}
+
+input{
+   margin-top: 3%;
+}
+#Icon{
+   border-radius: 25px;
+   padding: 5px;
+}
+#drop{
+   border-radius: 25px;
+}
+.svg{
+   filter: invert(100%);
+   padding-left: 120px;
+}
+
+p{
+   text-align: justify;
+   font-family: "Raleway";
+   color: #ffffffa1;
+}
+b{
+   color: #ffffff;
+}
+
+section{
+   padding-top: 75px;
+   padding-bottom: 75px;
+}
+
+.top-left-image{
+   margin-left: 32%;
+   margin-top: -137px;
+}
+
+.background-red{
+   background-color: #B11313;
+}
+
+.half-width{
+   width: 50%;
+}
+
+.pl-12{
+   padding-left: 18rem!important;
+}
+
+.px-none, section.px-none{
+   padding-top: 0 !important;
+   padding-bottom: 0 !important;
+}
+
+.text-align-right{
+   text-align: right !important;
+}
+
+
+.background-color-blue-opacity-5{
+   background-color: rgba(17, 76, 146, 0.5);
+}
+@media (widht:3000px){
+   .navbar-expand-lg{
+      display:block;
+   }
+   .navbarSupportedContent{
+      display: none;
+   }
+   .spiderman{
+      display:inline-table;
+   }
+   .spiders{
+      display: table-column;
+   }
+   .btnbtn-primary{
+      display:inline-block;
+   }
+
+   
+   
+
+}

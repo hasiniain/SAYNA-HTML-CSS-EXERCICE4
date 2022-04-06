@@ -1,0 +1,49 @@
+body.trois{
+    background-color: #f1c530;
+}
+/* presentation du super vilains */
+.bb{
+    background-image: url(assets/Illustration/img7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.vilains{
+    padding-top: 20%;
+   
+}
+
+#btn{
+    border: 5px solid #000000;
+    width: 330px;
+    border-top: none;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 50px 20px ;
+    margin-top: -10px;
+    margin-left: 10px;
+
+
+}
+.po{
+    padding-left: 18%;
+}
+/* les super vilains */
+.bod{
+    color: #000;
+
+}
+.bod-to{
+    font-size: 25px;
+    font-family: "medium";
+    text-align: center;
+    padding-bottom: 2%;
+}
+.bod-me{
+    color: #000;
+}
+.tina{
+    padding-bottom: none;
+}

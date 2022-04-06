@@ -1,0 +1,18 @@
+body.bas{
+    background-color:#B11313;
+}
+.plas{
+    background-image: url(assets/Illustration/img35.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+
+    
+}
+h1{
+    padding-top: 80%;
+    padding-left: 5%;
+}
+h3{
+    padding-left: 5%;
+}

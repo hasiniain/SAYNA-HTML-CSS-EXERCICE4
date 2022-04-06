@@ -1,0 +1,39 @@
+/* appérçus */
+body{
+   background-color:#114c92
+}
+.lo{
+    background-image: url(Assets/Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ /* les fondations */
+ .la{
+    background-image: url(Assets/Illustration/img20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    padding-top: 125px;
+    padding-bottom: 100px;
+ }
+ .ca{
+   background-image: url(Assets/Illustration/img33.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+p{
+   inline-size: 80%;
+}
+ /* les legendes */
+.hulk-img{
+    background-image: url("Assets/Illustration/img32.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wa{
+   padding: 0%;
+}
+.transforme{
+   font-family: "bold";
+   color: #ffffff;
+}

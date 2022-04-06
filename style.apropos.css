@@ -1,0 +1,73 @@
+/* la toile */
+.toile{
+    background-color: #f1c530;
+    padding: 0%;
+  
+}
+.news{
+    padding-top: 15%;
+   
+}
+
+.you{
+  transform: scaleX(-1);
+}
+/* l'antenne */
+
+.petit{
+    background-color:  #B11313;
+}
+.naz {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 5%;
+    margin-left: 5%;
+    background-color: #B11313;
+    border-color:  #ffff;
+}
+.naz::placeholder{
+    color: #ffff;
+}
+.naza{
+    width: 300px ;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 5%;
+    margin-left: 5%;
+    background-color: #B11313;
+    border-color:  #ffff;
+
+
+}
+.naza::placeholder{
+    color: #ffff;
+}
+.custom-button{
+    display: block;
+    border-color: #ffffff;
+    box-shadow: 3% #ffffff;
+    background-color: #B11313;
+    color: #ffffff;
+    width: 25%;
+    height: 50px;
+    border-radius: 18px;
+    margin:8%  100px;
+
+
+ }
+ /* sayna */
+ .sayna{
+     background-color: #114c92;
+ }
+.ycustom-button{
+    display: block;
+    border-color: #ffffff;
+    box-shadow: 3% #ffffff;
+    background-color:  #114c92; ;
+    color: #ffffff;
+    width: 50%;
+    height: 50px;
+    border-radius: 18px;
+    margin:8%  100px;
+}
